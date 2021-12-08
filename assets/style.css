@@ -80,3 +80,55 @@ p {
     font-size: 20px;
     text-align: center;
 }
+h3 {
+    padding: 40px;
+    font-size: 36px;
+    color: #266150;
+    text-decoration: wavy underline;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 68px;
+}
+
+.image {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 6px;
+    margin: 20px;
+    position: relative;
+}
+
+.image img {
+    max-width: 500px;
+}
+
+#bigimg img {
+    flex: 0 0 70%;
+    max-width: 900px;
+}
+
+#smallimg {
+    flex: 0 0 20%;
+}
+
+.text {
+    position: absolute;
+    font-size: 22px;
+    color: #266150;
+    font-weight: 560;
+    bottom: 14px;
+    background-color: #ffffff;
+}
+
+#comingsoon {
+    position: absolute;
+    font-size: 22px;
+    color: #266150;
+    font-weight: 560;
+    bottom: -433px;
+    background-color: #ffffff;
+}
