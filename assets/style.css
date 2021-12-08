@@ -43,7 +43,7 @@ header a {
     text-decoration: wavy underline;
   }
 
-  .about-me {
+.about-me {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
