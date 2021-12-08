@@ -180,3 +180,11 @@ a:hover {
 section img:hover {
     border: 6px solid var(--hotpink);
 }
+
+/* Display for smartphone */
+
+@media screen and (max-width: 768px) {
+    .about-me p   { 
+        width: 100%;
+    } 
+}
