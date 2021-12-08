@@ -46,3 +46,37 @@ header a {
     color: #ffffff;
     text-decoration: wavy underline;
   }
+
+  .about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-me img {
+    margin-top: 30px;
+    max-width: 300px;
+    border: 10px solid #ffff
+}
+
+h2 {
+    padding: 40px;
+    font-size: 36px;
+    color: #266150;
+    text-decoration: wavy underline;
+}
+
+p {
+    right: 160px;
+    top: 166px;
+    width: 57%;
+    border: 3px;
+    padding: 66px;
+}
+
+#about-me {
+    color: #266150;
+    font-family: "Optima", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
