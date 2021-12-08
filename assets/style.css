@@ -120,12 +120,12 @@ h3 {
 
 /* Adjust flex box to have the first application 
 image larger than rest */
-#bigimg img {
+#bigscreen img {
     flex: 0 0 70%;
     max-width: 900px;
 }
 
-#smallimg {
+#smallscreen {
     flex: 0 0 20%;
 }
 
