@@ -1,3 +1,10 @@
+:root {
+    --pink: #ffd5f5;
+    --green: #266150;
+    --white: #ffffff;
+    --hotpink: #ca4593;
+}
+
 
 /* Universal selector for entire page */
 * {
@@ -7,7 +14,7 @@
 }
 
 body {
-    background-color: #ffd5f5;
+    background-color: var(--pink);
     font-family: "Optima", sans-serif;
 }
 
@@ -22,8 +29,8 @@ body {
 header {
     padding: 20px;
     text-align: left;
-    background-color: #266150;
-    color: #ffffff;
+    background-color: var(--green);
+    color: var(--white);
 }
 
 header h1{
@@ -43,7 +50,7 @@ header nav ul li {
 }
 
 header a {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: wavy underline;
   }
 
@@ -58,13 +65,13 @@ header a {
 .about-me img {
     margin-top: 30px;
     max-width: 300px;
-    border: 10px solid #ffff
+    border: 10px solid var(--white);
 }
 
 h2 {
     padding: 40px;
     font-size: 36px;
-    color: #266150;
+    color: var(--green);
     text-decoration: wavy underline;
 }
 
@@ -77,7 +84,7 @@ p {
 }
 
 #about-me {
-    color: #266150;
+    color: var(--green);
     font-family: "Optima", sans-serif;
     font-size: 20px;
     text-align: center;
@@ -88,7 +95,7 @@ p {
 h3 {
     padding: 40px;
     font-size: 36px;
-    color: #266150;
+    color: var(--green);
     text-decoration: wavy underline;
 }
 
@@ -101,7 +108,7 @@ h3 {
 
 .image {
     border-style: solid;
-    border-color: #ffffff;
+    border-color: var(--white);
     border-width: 6px;
     margin: 20px;
     position: relative;
@@ -125,10 +132,10 @@ image larger than rest */
 .text {
     position: absolute;
     font-size: 22px;
-    color: #266150;
+    color: var(--green);
     font-weight: 560;
     bottom: 14px;
-    background-color: #ffffff;
+    background-color: var(--white);
 }
 
 /* Footer & Contact Me */
@@ -136,7 +143,7 @@ image larger than rest */
 h4 {
     padding: 40px;
     font-size: 36px;
-    color: #266150;
+    color: var(--green);
     text-decoration: wavy underline;
 }
 
@@ -150,7 +157,7 @@ h4 {
 footer nav {
     padding: 40px;
     font-family: "Optima", sans-serif;
-    color: #266150;
+    color: var(--green);
     font-size: 20px;
 }
 
@@ -160,16 +167,16 @@ footer nav ul li {
 }
 
 footer a {
-    color: #266150;
+    color: var(--green);
     font-weight: 560;
 }
 
 
 /* Pseudo Classes :hover */
 a:hover {
-    color: #ca4593;
+    color: var(--hotpink);
 }
 
 section img:hover {
-    border: 6px solid #ca4593;
+    border: 6px solid var(--hotpink);
 }
