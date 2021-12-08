@@ -132,3 +132,41 @@ h3 {
     bottom: -433px;
     background-color: #ffffff;
 }
+h4 {
+    padding: 40px;
+    font-size: 36px;
+    color: #266150;
+    text-decoration: wavy underline;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 100px;
+}
+
+footer nav {
+    padding: 40px;
+    font-family: "Optima", sans-serif;
+    color: #266150;
+    font-size: 20px;
+}
+
+footer nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+footer a {
+    color: #266150;
+    font-weight: 560;
+}
+
+a:hover {
+    color: #ca4593;
+}
+
+section img:hover {
+    border: 6px solid #ca4593;
+}
