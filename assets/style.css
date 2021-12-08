@@ -1,0 +1,48 @@
+:root {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #ffd5f5;
+    font-family: "Optima", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header {
+    padding: 20px;
+    text-align: left;
+    background-color: #266150;
+    color: #ffffff;
+}
+
+header h1{
+    font-size: 48px;
+}
+
+header nav {
+    padding: 20px;
+    font-family: "Optima", sans-serif;
+    font-size: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: wavy underline;
+  }
