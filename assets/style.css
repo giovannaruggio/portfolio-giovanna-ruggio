@@ -129,6 +129,11 @@ image larger than rest */
     flex: 0 0 20%;
 }
 
+#smallscreen img {
+    width: 500px;
+    height: 300px;
+}
+
 .text {
     position: absolute;
     font-size: 22px;
@@ -181,10 +186,11 @@ section img:hover {
     border: 6px solid var(--hotpink);
 }
 
+
 /* Display for smartphone */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .about-me p   { 
         width: 100%;
     } 
-}
+} */
