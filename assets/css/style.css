@@ -1,196 +1,53 @@
-:root {
-    --pink: #ffd5f5;
-    --green: #266150;
-    --white: #ffffff;
-    --hotpink: #ca4593;
-}
-
-
-/* Universal selector for entire page */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    border: border-box;
+    font-family: 'Fugaz One', cursive;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-brand {
+    font-size: 30px;
 }
 
 body {
-    background-color: var(--pink);
-    font-family: "Optima", sans-serif;
+    background-image: url("../images/background.png");
+    background-color: #cccccc;
 }
 
-/* Header */
-
-.header {
-    display: flex;
-    justify-content: space-between;
+#profile {
+    width: 600px;
+    margin-top: -40px;
 }
 
-
-header {
-    padding: 20px;
-    text-align: left;
-    background-color: var(--green);
-    color: var(--white);
-}
-
-header h1{
-    font-size: 48px;
-}
-
-header nav {
-    padding: 20px;
-    font-family: "Optima", sans-serif;
-    font-size: 20px;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-left: 20px;
-    padding-top: 10px;
-}
-
-header a {
-    color: var(--white);
-    text-decoration: wavy underline;
-  }
-
-/* About Me */
-
-.about-me {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.about-me img {
-    margin-top: 30px;
-    max-width: 300px;
-    border: 10px solid var(--white);
-}
-
-h2 {
-    padding: 40px;
-    font-size: 36px;
-    color: var(--green);
-    text-decoration: wavy underline;
-}
-
-p {
-    right: 160px;
-    top: 166px;
-    width: 57%;
-    border: 3px;
-    padding: 66px;
-}
-
-#about-me {
-    color: var(--green);
-    font-family: "Optima", sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
-
-/* Work */
-
-h3 {
-    padding: 40px;
-    font-size: 36px;
-    color: var(--green);
-    text-decoration: wavy underline;
-}
-
-.work {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 68px;
-}
-
-.image {
-    border-style: solid;
-    border-color: var(--white);
-    border-width: 6px;
-    margin: 20px;
-    position: relative;
-}
-
-.image img {
-    max-width: 500px;
-}
-
-/* Adjust flex box to have the first application 
-image larger than rest */
-#bigscreen img {
-    flex: 0 0 70%;
-    max-width: 900px;
-}
-
-#smallscreen {
-    flex: 0 0 20%;
-}
-
-#smallscreen img {
-    width: 500px;
-    height: 300px;
-}
-
-.text {
-    position: absolute;
-    font-size: 22px;
-    color: var(--green);
-    font-weight: 560;
-    bottom: 14px;
-    background-color: var(--white);
-}
-
-/* Footer & Contact Me */
-
-h4 {
-    padding: 40px;
-    font-size: 36px;
-    color: var(--green);
-    text-decoration: wavy underline;
-}
-
-.contact-me {
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
+#about {
     margin-top: 100px;
 }
 
-footer nav {
-    padding: 40px;
-    font-family: "Optima", sans-serif;
-    color: var(--green);
-    font-size: 20px;
+#work {
+    margin-top: 210px;
 }
 
-footer nav ul li {
-    display: inline-block;
-    padding: 10px;
+#paragraph {
+    margin-top: -10px;
 }
 
-footer a {
-    color: var(--green);
-    font-weight: 560;
+#skillsTitle {
+    text-align: right;
 }
 
-
-/* Pseudo Classes :hover */
-a:hover {
-    color: var(--hotpink);
+.skills {
+    float: right;
+    margin-top: 75px;
 }
 
-section img:hover {
-    border: 6px solid var(--hotpink);
+#skills {
+    background-color: rgb(209, 47, 147);
 }
 
-
-/* Display for smartphone */
-
-/* @media screen and (max-width: 768px) {
-    .about-me p   { 
-        width: 100%;
-    } 
-} */
+footer {
+    float: right;
+}
