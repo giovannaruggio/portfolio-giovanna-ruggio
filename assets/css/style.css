@@ -48,6 +48,10 @@ body {
     background-color: rgb(209, 47, 147);
 }
 
+.fix {
+    padding: 5px;
+}
+
 footer {
     float: right;
 }
